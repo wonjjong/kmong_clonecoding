@@ -32,6 +32,14 @@ function App() {
                 id="search-input" 
                 placeholder='검색하세용 검색!'/> 
             </div>
+            <div className="category mt-20">
+              <div className="border-denim background-denim"><p>카페24</p></div>
+              <div className="border-denim background-denim"><p>퍼블리싱</p></div>
+              <div className="ml-10"><p>홈페이지제작</p></div>
+              <div><p>카페24</p></div>
+              <div><p>홈페이지</p></div>
+              <div><p>워드프레스</p></div>
+            </div>
           </div>
 
           <div className="section-1-right" style={{backgroundColor:'black'}}></div>          
