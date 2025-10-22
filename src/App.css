@@ -51,3 +51,33 @@ ul ,li{
   margin: 0;
   padding: 0;
 }
+
+header { 
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .badge {
+  border-radius: 10px;
+  width:30px;
+  height:20px;
+  font-size: 10px;
+  margin-left: 3px;
+  border-color:black;
+  background-color: rgba(0, 0, 255, 0.5);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+}
+
+header .black-btn {
+  border-radius: 10px;
+  background-color: black;
+  border-color: black;
+  color:white;
+  font-weight: bold;
+  width:80px;
+  height:40px;
+}
