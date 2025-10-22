@@ -1,124 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 * {
   margin: 0;
   padding: 0;
-}
-
-.w-30 { 
-  width: 30px;
-}
-
-.w-80 {
-    width: 80px;
-}
-
-.h-20 {
-  height: 20px;
-}
-
-.h-40 {
-  height: 40px;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.ml-20 {
-  margin-left: 20px;
-}
-
-.mt-20 {
-  margin-top: 20px;
-}
-
-.list{
-  width: 50px;
-  height: 50px;
-  background-color: pink;
 }
 
 ul ,li{
   list-style: none;
 }
 
-header { 
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top:10px;
-  font-size: 14px;
-  font-weight: 600;
+button {
+  cursor: pointer;
 }
 
-header > div {
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.flex-y-center {
   display: flex;
   align-items: center;
 }
 
-header .header-badge {
+/** header 영역 */
+header { 
+  width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header > div, header > ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#logo {
+  width: 120px;
+  border-right: 1px solid #747474
+}
+
+#biz-wrap {
+  display: flex;
+  gap: 10px;
+}
+
+#toggle {
+  border: 0;
+  background-color: black;  
+  color: white;
+}
+
+.header-badge {
   border-radius: 10px;
-  width:30px;
+  width: 40px;
   height:20px;
   font-size: 10px;
   margin-left: 3px;
   border-color:black;
-  background-color: rgba(0, 0, 255, 0.5);
+  background-color: #3720ff;
   display:flex;
   justify-content: center;
   align-items: center;
   font-weight:bold;
+  color: white
 }
 
-header .header-black-btn {
+#signup-btn {
+  width: 80px;
+  height: 40px;
   border-radius: 10px;
   background-color: black;
-  border-color: black;
   color:white;
   font-weight: bold;
 }
+/** header 영역 */
 
 .section-1 {
   width: 1200px;

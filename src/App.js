@@ -3,23 +3,28 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
+    <div>
+      <header>
         <div>
-          <span>이미지 영역</span>
-          <span className="ml-20">
-            크몽 Biz
-          </span>
-          <button className="header-black-btn w-30 h-20 ml-10">토글버튼</button>
+          <div id={'logo'}>이미지 영역</div>
+          
+          <div id={'biz-wrap'}>
+            <div>크몽 Biz</div>
+            <div id={'toggle'}>토글버튼</div>
+          </div>
         </div>
 
-        <div>
-          <p>엔터프라이즈</p>
-          <div className="header-badge">기업용</div>
-          <span className="ml-20">전문가 등록</span>
-          <span className="ml-20">로그인</span>
-          <button className="header-black-btn w-80 h-40 ml-20">회원가입</button>
-        </div>
+        <ul>
+          <li className={'flex-y-center'}>
+            <div>엔터프라이즈</div>
+            <div className="header-badge">기업용</div>
+          </li>
+          <li>전문가 등록</li>
+          <li>로그인</li>
+          <li>
+            <button id="signup-btn">회원가입</button>
+          </li>
+        </ul>
       </header>
 
       <section>
@@ -46,7 +51,7 @@ function App() {
         </div>
       </section>
 
-      <footer style={{backgroundColor:'red', marginTop: '10px'}}>
+      <footer style={{backgroundColor:'pink', marginTop: '10px'}}>
         푸터푸터푸터
       </footer>
     </div>
