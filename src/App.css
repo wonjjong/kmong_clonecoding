@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
   max-width:400px;
   margin: 0 auto;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -130,3 +130,106 @@ margin-bottom: 40px;
 	justify-content: space-between; */
 }
 	
+
+button {
+  background-color: transparent;
+  all: unset;
+}
+
+#header {
+ padding: 20px;
+ background-color: #161616;
+ > button {
+  color: white;
+ }
+}
+
+.content-wrap {
+  padding: 0 20px;
+}
+
+#event-section {
+  padding: 50px 0;
+}
+
+#event-box {
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  width: 100%;
+  height: 500px;
+}
+
+#event-title-wrap {
+  text-align: center;
+}
+
+#event-store {
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
+#event-product {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#event-tag {
+  width: 100px;
+  padding: 8px 15px;
+  color: #7e7e7e;
+  border: 1px solid #7e7e7e;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+#event-img-wrap {
+  height: 242px;
+  background-color: #d02a00;
+  text-align: center;
+}
+
+#caution-section {
+  padding: 20px;
+  background-color: #161616;
+}
+
+#caution-title {
+  font-size: 14px;
+  color: white;
+}
+
+#caution-content {
+  color: rgb(172, 172, 172);
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+#info-section {
+  padding: 20px;
+  background-color: #161616;
+}
+
+.info-list-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.info-title {
+  color: #787878;
+  font-size: 14px;
+}
+
+.info-value {
+  color: #a9a9a9;
+  font-size: 14px;
+  span {
+    color: #255bd7
+  }
+}
