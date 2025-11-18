@@ -233,3 +233,33 @@ button {
     color: #255bd7
   }
 }
+
+#event-list-content {
+  background-color: black;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-info-card {
+  width:180px;
+  height: 300px;
+  color:white;
+  margin: 10px 10px 10px 10px;
+
+  > div.product-thumbnail {
+    border-radius: 10px;
+    width:170px;
+    height: 200px;
+    background-color:white;
+  }
+
+  > div.product-name {
+    padding: 5px;
+  }
+
+  > div.product-price {
+    padding: 5px;
+  }
+
+}
