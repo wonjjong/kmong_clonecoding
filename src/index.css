@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'SchoolSafetyColoredPencil', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,4 +14,11 @@ code {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'SchoolSafetyColoredPencil';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimSaekyeonpilR.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
 }

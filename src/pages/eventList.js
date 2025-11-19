@@ -14,6 +14,7 @@ function About() {
       <div id={'event-list-content'}>
         <div className={'product-info-card'}>
           <div className={'product-thumbnail'}>
+            <img src='/assets/snowball_1.jpg' className={'product-thumbnail-img'} ></img> 
           </div>
           <div className={'product-name'}>
             [항공직송] 칠레산 생체리 300g (10row)
@@ -24,6 +25,7 @@ function About() {
         </div>
         <div className={'product-info-card'}>
           <div className={'product-thumbnail'}>
+            <img src='/assets/snowball_2.jpg' className={'product-thumbnail-img'} ></img> 
           </div>
           <div className={'product-name'}>
             [항공직송] 칠레산 생체리 300g (10row)
@@ -34,6 +36,7 @@ function About() {
         </div>
         <div className={'product-info-card'}>
           <div className={'product-thumbnail'}>
+              <img src='/assets/snowball_3.jpg' className={'product-thumbnail-img'} ></img> 
           </div>
           <div className={'product-name'}>
             [항공직송] 칠레산 생체리 300g (10row)
@@ -43,56 +46,7 @@ function About() {
           </div>
         </div>
         <div className={'product-info-card'}>
-          <div className={'product-thumbnail'}>
-          </div>
-          <div className={'product-name'}>
-            [항공직송] 칠레산 생체리 300g (10row)
-          </div>
-          <div className={'product-price'}>
-            12,900원 로켓배송!!
-          </div>
         </div>
-        <div className={'product-info-card'}>
-          <div className={'product-thumbnail'}>
-          </div>
-          <div className={'product-name'}>
-            [항공직송] 칠레산 생체리 300g (10row)
-          </div>
-          <div className={'product-price'}>
-            12,900원 로켓배송!!
-          </div>
-        </div>
-        <div className={'product-info-card'}>
-          <div className={'product-thumbnail'}>
-          </div>
-          <div className={'product-name'}>
-            [항공직송] 칠레산 생체리 300g (10row)
-          </div>
-          <div className={'product-price'}>
-            12,900원 로켓배송!!
-          </div>
-        </div>
-        <div className={'product-info-card'}>
-          <div className={'product-thumbnail'}>
-          </div>
-          <div className={'product-name'}>
-            [항공직송] 칠레산 생체리 300g (10row)
-          </div>
-          <div className={'product-price'}>
-            12,900원 로켓배송!!
-          </div>
-        </div>
-        <div className={'product-info-card'}>
-          <div className={'product-thumbnail'}>
-          </div>
-          <div className={'product-name'}>
-            [항공직송] 칠레산 생체리 300g (10row)
-          </div>
-          <div className={'product-price'}>
-            12,900원 로켓배송!!
-          </div>
-        </div>
-        
       </div>  
     </div>
   );
