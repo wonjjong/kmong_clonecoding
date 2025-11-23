@@ -32,6 +32,18 @@ function Home() {
               이벤트 목록 페이지로 이동
             </Link>
           </li>
+          <li style={{ marginBottom: '10px' }}>
+            <Link to="/winning-detail" style={{ 
+              display: 'block',
+              padding: '15px',
+              backgroundColor: '#f0f0f0',
+              textDecoration: 'none',
+              color: '#333',
+              borderRadius: '5px'
+            }}>
+              당첨 내역 페이지로 이동
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
